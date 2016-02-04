@@ -15,12 +15,12 @@
     "youtubevideo"
   ],
   "canContain": false,
-  "view": "modules/youtubegallery/index.html",
-  "files": ["modules/youtubegallery/controller.js"],
+  "view": "http://resources.kingofapp.com/modules/youtubegallery/index.html",
+  "files": ["http://resources.kingofapp.com/modules/youtubegallery/controller.js"],
   "scope": {
-    "channelid": "UCeIt2DJO8UdtUTmJzTfSXiQ",
-    "token": "XXXX",
-    "singleurl": "/menu/youtubevideo"
+    "channelid": "",
+    "token": "",
+    "singleurl": ""
   },
   "config": [{
     "type": "input",
