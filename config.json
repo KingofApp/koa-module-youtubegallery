@@ -30,7 +30,6 @@
     "key": "channelid",
     "templateOptions": {
       "description": "id del channel",
-      "pattern": "^[a-zA-Z0-9]+$",
       "required": true,
       "label": "channelid"
     }
