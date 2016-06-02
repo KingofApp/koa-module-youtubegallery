@@ -71,8 +71,8 @@
     "screenshots": [
       "modules/youtubegallery/images/youtuve-video_screenshots.png"
     ],
-    "popover": "modules/youtubegallery/images/popover.png",
-    "banner": "modules/youtubegallery/images/popover.png",
+    "popover": "modules/youtubegallery/images/youtuve-video_popover.png",
+    "banner": "modules/youtubegallery/images/youtuve-video_popover.png",
     "logo": "modules/youtubegallery/images/youtube-video_icons.png"
   }
 }
