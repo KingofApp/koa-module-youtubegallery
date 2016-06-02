@@ -69,8 +69,7 @@
   "images": {
     "list": "modules/youtubegallery/images/youtube-video_list.png",
     "screenshots": [
-      "modules/youtubegallery/images/youtuve-video_screenshots.png",
-      
+      "modules/youtubegallery/images/youtuve-video_screenshots.png"
     ],
     "popover": "modules/youtubegallery/images/popover.png",
     "banner": "modules/youtubegallery/images/popover.png",
