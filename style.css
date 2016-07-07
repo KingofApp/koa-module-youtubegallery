@@ -1,0 +1,16 @@
+.info-left span, .info-right span {
+  position: relative;
+  top: -6px;
+}
+.info-left {
+  float: left;
+}
+.info-right {
+  float: right;
+}
+.listContainer {
+  border-bottom: 1px solid #CCC;
+}
+#contentIcon {
+  margin-right: 5px;
+}

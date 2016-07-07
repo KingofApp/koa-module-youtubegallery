@@ -3,9 +3,28 @@
   <koa-item ng-if="youtubegallery.message">{{youtubegallery.message}}</koa-item>
 
   <a href="#{{item.link}}" ng-repeat="item in youtubegallery.items">
-    <koa-card image="{{item.img}}">
-      <div class="card-content">{{item.title}}</div>
+    <koa-card ng-if="visualization !== 'list'" image="{{item.img}}">
+      <div class="card-content">
+        {{item.title}}
+      </div>
+      <div class="card-actions">
+        <div class='info-left'>
+          <koa-icon icon="icons:event"></koa-icon>
+          <span>{{item.publish}}</span>
+        </div>
+        <div class='info-right'>
+          <koa-icon icon="icons:account-box"></koa-icon>
+          <span>{{item.channel}}</span>
+        </div>
+      </div>
     </koa-card>
+    <koa-item ng-if="visualization === 'list'" class="listContainer">
+      <img class="featuredImage" src="{{item.img}}" item-icon />
+      <koa-item-body two-line>
+        <div>{{item.title | cleanHex}}</div>
+        <div secondary>{{item.publish}} | {{item.channel}}</div>
+      </koa-item-body>
+    </koa-item>
   </a>
 
 </div>
