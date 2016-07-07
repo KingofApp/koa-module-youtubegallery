@@ -42,7 +42,7 @@
     },
     "channelid": "",
     "token": "",
-    "visualization": "card"
+    "visualization": ""
   },
   "libs": [{
       "bower": { "moment": "^2.11.2" },

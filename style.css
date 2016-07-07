@@ -2,12 +2,6 @@
   position: relative;
   top: -6px;
 }
-.info-left {
-  float: left;
-}
-.info-right {
-  float: right;
-}
 .listContainer {
   border-bottom: 1px solid #CCC;
 }
