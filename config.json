@@ -15,7 +15,7 @@
   },
   "icon": "youtube",
   "type": "A",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "King of App",
   "category": [
     "media"
@@ -30,7 +30,8 @@
   ],
   "view": "modules/youtubegallery/index.html",
   "files": [
-    "modules/youtubegallery/controller.js"
+    "modules/youtubegallery/controller.js",
+    "modules/youtubegallery/style.css"
   ],
   "requires": {
     "out": ["youtubevideo"]
@@ -40,9 +41,13 @@
       "youtubevideo": ""
     },
     "channelid": "",
-    "token": ""
+    "token": "",
+    "visualization": ""
   },
-  "libs": [],
+  "libs": [{
+      "bower": { "moment": "^2.11.2" },
+      "src": "bower_components/moment/moment.js"
+    }],
   "config": [{
     "type": "input",
     "key": "channelid",
@@ -60,6 +65,18 @@
       "required": true,
       "label": "token"
     }
+  },
+  {
+    "type": "select",
+    "key": "visualization",
+    "templateOptions": {
+      "description": "Select type of visualization",
+      "label": "visualization",
+      "options": [
+        {"name": "Card", "value": "card" },
+        {"name": "List", "value": "list" }
+      ]
+    }
   }],
   "showOn": {
     "menu": true,
@@ -67,13 +84,12 @@
     "dragDrop": true
   },
   "images": {
-    "list": "modules/youtubegallery/images/list.png",
+    "list": "modules/youtubegallery/images/youtube-video_list.png",
     "screenshots": [
-      "modules/youtubegallery/images/screenshot01.png",
-      "modules/youtubegallery/images/screenshot02.png"
+      "modules/youtubegallery/images/youtuve-video_screenshots.png"
     ],
-    "popover": "modules/youtubegallery/images/popover.png",
-    "banner": "modules/youtubegallery/images/banner.png",
-    "logo": "modules/youtubegallery/images/logo.png"
+    "popover": "modules/youtubegallery/images/youtube-video_popover.png",
+    "banner": "modules/youtubegallery/images/youtube-video_popover.png",
+    "logo": "modules/youtubegallery/images/youtube-video_icons.png"
   }
 }
