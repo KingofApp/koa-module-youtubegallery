@@ -9,5 +9,7 @@
   "license": "MIT",
   "homepage": "http://kingofapp.com",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "moment": "#^2.11.2"
+  }
 }
