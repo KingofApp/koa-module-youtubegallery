@@ -5,7 +5,9 @@ loadFunction.$inject = ['$http','$scope', 'structureService', '$location', '$rou
 
 function loadFunction($http, $scope, structureService, $location, $routeParams, $filter){
   //Register upper level modules
+  $scope.isBusy = true;
   structureService.registerModule($location,$scope,"youtubegallery");
+
   var moduleConfig = angular.copy($scope.youtubegallery.modulescope);
 
   $scope.visualization = moduleConfig.visualization || 'card';
@@ -31,7 +33,9 @@ function loadFunction($http, $scope, structureService, $location, $routeParams, 
         }
       });
       $scope.youtubegallery.items = elements;
+      $scope.isBusy = false;
     }).error(function(data, error){
     	$scope.youtubegallery.message = 'Opps! There was a problem loading the feed! '+data.error.message;
+      $scope.isBusy = false;
     });
 }
