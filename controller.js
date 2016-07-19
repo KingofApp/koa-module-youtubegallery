@@ -24,7 +24,8 @@ function loadFunction($http, $scope, structureService, $location, $routeParams, 
       angular.forEach( data.items, function(item){
         if(item.id.videoId){
           elements.push({
-            link    :  moduleConfig.childrenUrl.youtubevideo+'?video='+item.id.videoId,
+            videoId : item.id.videoId,
+            link    : moduleConfig.childrenUrl.youtubevideo+'?video='+item.id.videoId,
             title   : item.snippet.title,
             img     : item.snippet.thumbnails.medium.url,
             channel : item.snippet.channelTitle,
