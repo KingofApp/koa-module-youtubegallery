@@ -1,9 +1,13 @@
 <div ng-controller="youtubeGalleryCtrl" class="module youtubegallery">
   <!-- Status message -->
   <koa-item ng-if="youtubegallery.message">{{youtubegallery.message}}</koa-item>
-
       <koa-grid cell-space="5px" columns="1" ng-if="!isBusy && visualization !== 'list'">
-        <koa-card image="{{item.img}}" ng-repeat="item in youtubegallery.items">
+        <koa-card ng-repeat="item in youtubegallery.items">
+          <div class="header">
+            <iron-image ng-if=" visualization !== 'inline'" src="{{item.img}}" class="">
+            </iron-image>
+            <youtube ng-if=" visualization === 'inline'" code="item.videoId"></youtube>
+          </div>
           <a href="#{{item.link}}">
             <div class="card-content">
               {{item.title}}

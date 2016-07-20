@@ -15,7 +15,7 @@
   },
   "icon": "youtube",
   "type": "A",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "King of App",
   "category": [
     "media"
@@ -31,6 +31,7 @@
   "view": "modules/youtubegallery/index.html",
   "files": [
     "modules/youtubegallery/controller.js",
+    "modules/youtubegallery/directive.js",
     "modules/youtubegallery/style.css"
   ],
   "requires": {
@@ -74,7 +75,8 @@
       "label": "visualization",
       "options": [
         {"name": "Card", "value": "card" },
-        {"name": "List", "value": "list" }
+        {"name": "List", "value": "list" },
+        {"name": "Inline Player", "value": "inline" }
       ]
     }
   }],
