@@ -2,16 +2,16 @@
   "name": "Youtube Gallery",
   "identifier": "youtubegallery",
   "description": {
-    "es-ES": "Con este módulo podrás ofrecer todos los vídeos que tengas en tu canal de Youtube. Para activarlo, selecciónalo y en el apartado de configuración entra la url de la galería de vídeos así como el ID del canal. P.e. https://www.youtube.com/channel/MiCanal            ID: MiCanal            url:  https://www.youtube.com/channel/MiCanal/videos",
-    "en-US": "Con este módulo podrás ofrecer todos los vídeos que tengas en tu canal de Youtube. Para activarlo, selecciónalo y en el apartado de configuración entra la url de la galería de vídeos así como el ID del canal. P.e. https://www.youtube.com/channel/MiCanal            ID: MiCanal            url:  https://www.youtube.com/channel/MiCanal/videos"
+    "es-ES": "Sincroniza tu canal de Youtube a tu app, activandolo en el apartado de configuración con la url de la galería de videos y el ID del canal.P.e. https://www.youtube.com/channel/MiCanal            ID: MiCanal            url:  https://www.youtube.com/channel/MiCanal/videos",
+    "en-US": "Synchronize your Youtube channel to your app by activating it in the configuration section with the url of the video gallery and the channel ID. https://www.youtube.com/channel/MyChannel ID: MyChannel url: https://www.youtube.com/channel/MyChannel/videos"
   },
   "documentation": {
     "es-ES": "modules/youtubegallery/documentation/es_ES.md",
     "en-US": "modules/youtubegallery/documentation/en_US.md"
   },
   "descriptionShort": {
-    "es-ES": "Ofrece todos los vídeos de tu canal a los usuarios de tu app.",
-    "en-US": "Ofrece todos los vídeos de tu canal a los usuarios de tu app."
+    "es-ES": "Accede a todos los videos en tu canal de Youtube!",
+    "en-US": "Access all videos in your youtube channel!"
   },
   "icon": "youtube",
   "type": "A",
