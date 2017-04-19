@@ -25,3 +25,9 @@ Para conseguir el Access Token, deberemos ir a la [consola de desarrolladores de
 Unos sencillos pasos para **volcar en tu App todos los vídeos del canal de Youtube** que quieras. Recuerda que este módulo y su configuración sólo funciona para los canales y no para los usuarios. Distinguirás ![Credenciales---King_---https___console.developers.google.com_apis_credentials](http://kingofapp.es/wp-content/uploads/2015/12/Credenciales-King_-https___console.developers.google.com_apis_credentials-300x157.png)entre unos y otros en la url por el distintivo "_channel_" o "_user_".
 
 Dos módulos, diferentes pero complementarios que van a dotar tu App de un **contenido único y original** así que apresúrate a probar todo cuanto Youtube puede darte a tu aplicación.
+
+### Details:
+
+- Author: King of app
+- Version: 1.0.9
+- Homepage:

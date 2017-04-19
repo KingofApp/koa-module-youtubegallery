@@ -1,6 +1,6 @@
 {
   "name": "koapp-module-youtubegallery",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "Ofrece todos los vídeos de tu canal a los usuarios de tu app.",
   "directories": {
     "test": "test"
