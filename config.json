@@ -15,7 +15,7 @@
   },
   "icon": "youtube",
   "type": "A",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "author": "King of App",
   "category": [
     "media"
@@ -62,7 +62,7 @@
     "key": "token",
     "templateOptions": {
       "description": "token",
-      "pattern": "^[a-zA-Z0-9]+$",
+      "pattern": "^[a-zA-Z0-9_]+$",
       "required": true,
       "label": "token"
     }
