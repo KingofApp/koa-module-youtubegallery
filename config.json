@@ -62,7 +62,7 @@
     "key": "token",
     "templateOptions": {
       "description": "token",
-      "pattern": "^[a-zA-Z0-9]+$",
+      "pattern": "^[a-zA-Z0-9_]+$",
       "required": true,
       "label": "token"
     }
