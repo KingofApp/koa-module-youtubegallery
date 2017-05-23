@@ -1,97 +1,115 @@
 {
-  "name": "Youtube Gallery",
-  "identifier": "youtubegallery",
-  "description": {
-    "es-ES": "Sincroniza tu canal de Youtube a tu app, activandolo en el apartado de configuración con la url de la galería de videos y el ID del canal.P.e. https://www.youtube.com/channel/MiCanal            ID: MiCanal            url:  https://www.youtube.com/channel/MiCanal/videos",
-    "en-US": "Synchronize your Youtube channel to your app by activating it in the configuration section with the url of the video gallery and the channel ID. https://www.youtube.com/channel/MyChannel ID: MyChannel url: https://www.youtube.com/channel/MyChannel/videos"
-  },
-  "documentation": {
-    "es-ES": "modules/youtubegallery/documentation/es_ES.md",
-    "en-US": "modules/youtubegallery/documentation/en_US.md"
-  },
-  "descriptionShort": {
-    "es-ES": "Accede a todos los videos en tu canal de Youtube!",
-    "en-US": "Access all videos in your youtube channel!"
-  },
-  "icon": "youtube",
-  "type": "A",
-  "version": "1.0.10",
-  "author": "King of App",
-  "category": [
-    "media"
-  ],
-  "price": 0,
-  "subscription": false,
-  "canContain": false,
-  "platforms": [
-    "android",
-    "ios",
-    "windows"
-  ],
-  "view": "modules/youtubegallery/index.html",
-  "files": [
-    "modules/youtubegallery/controller.js",
-    "modules/youtubegallery/directive.js",
-    "modules/youtubegallery/style.css"
-  ],
-  "requires": {
-    "out": ["youtubevideo"]
-  },
-  "scope": {
-    "childrenUrl": {
-      "youtubevideo": ""
+    "name": "Youtube Gallery",
+    "identifier": "youtubegallery",
+    "description": {
+        "es-ES": "Sincroniza tu canal de Youtube a tu app, activandolo en el apartado de configuración con la url de la galería de videos y el ID del canal.P.e. https://www.youtube.com/channel/MiCanal            ID: MiCanal            url:  https://www.youtube.com/channel/MiCanal/videos",
+        "en-US": "Synchronize your Youtube channel to your app by activating it in the configuration section with the url of the video gallery and the channel ID. https://www.youtube.com/channel/MyChannel ID: MyChannel url: https://www.youtube.com/channel/MyChannel/videos"
     },
-    "channelid": "",
-    "token": "",
-    "visualization": ""
-  },
-  "libs": [{
-      "bower": { "moment": "^2.11.2" },
-      "src": "bower_components/moment/moment.js"
-    }],
-  "config": [{
-    "type": "input",
-    "key": "channelid",
-    "templateOptions": {
-      "description": "id del channel",
-      "required": true,
-      "label": "channelid"
-    }
-  }, {
-    "type": "input",
-    "key": "token",
-    "templateOptions": {
-      "description": "token",
-      "pattern": "^[a-zA-Z0-9_]+$",
-      "required": true,
-      "label": "token"
-    }
-  },
-  {
-    "type": "select",
-    "key": "visualization",
-    "templateOptions": {
-      "description": "Select type of visualization",
-      "label": "visualization",
-      "options": [
-        {"name": "Card", "value": "card" },
-        {"name": "List", "value": "list" },
-        {"name": "Inline Player", "value": "inline" }
-      ]
-    }
-  }],
-  "showOn": {
-    "menu": true,
-    "market": true,
-    "dragDrop": true
-  },
-  "images": {
-    "list": "modules/youtubegallery/images/youtube-video_list.png",
-    "screenshots": [
-      "modules/youtubegallery/images/youtuve-video_screenshots.png"
+    "documentation": {
+        "es-ES": "modules/youtubegallery/documentation/es_ES.md",
+        "en-US": "modules/youtubegallery/documentation/en_US.md"
+    },
+    "descriptionShort": {
+        "es-ES": "Accede a todos los videos en tu canal de Youtube!",
+        "en-US": "Access all videos in your youtube channel!"
+    },
+    "icon": "youtube",
+    "type": "A",
+    "version": "1.0.11",
+    "author": "King of App",
+    "category": [
+        "media"
     ],
-    "popover": "modules/youtubegallery/images/youtube-video_popover.png",
-    "banner": "modules/youtubegallery/images/youtube-video_popover.png",
-    "logo": "modules/youtubegallery/images/youtube-video_icons.png"
-  }
+    "price": 0,
+    "subscription": false,
+    "canContain": false,
+    "platforms": [
+        "android",
+        "ios",
+        "windows"
+    ],
+    "view": "modules/youtubegallery/index.html",
+    "files": [
+        "modules/youtubegallery/controller.js",
+        "modules/youtubegallery/directive.js",
+        "modules/youtubegallery/style.css"
+    ],
+    "requires": {
+        "out": [
+            "youtubevideo"
+        ]
+    },
+    "scope": {
+        "childrenUrl": {
+            "youtubevideo": ""
+        },
+        "channelid": "",
+        "token": "",
+        "visualization": ""
+    },
+    "libs": [
+        {
+            "bower": {
+                "moment": "^2.11.2"
+            },
+            "src": "bower_components/moment/moment.js"
+        }
+    ],
+    "config": [
+        {
+            "type": "input",
+            "key": "channelid",
+            "templateOptions": {
+                "description": "id del channel",
+                "required": true,
+                "label": "channelid"
+            }
+        },
+        {
+            "type": "input",
+            "key": "token",
+            "templateOptions": {
+                "description": "token",
+                "pattern": "^[a-zA-Z0-9_]+$",
+                "required": true,
+                "label": "token"
+            }
+        },
+        {
+            "type": "select",
+            "key": "visualization",
+            "templateOptions": {
+                "description": "Select type of visualization",
+                "label": "visualization",
+                "options": [
+                    {
+                        "name": "Card",
+                        "value": "card"
+                    },
+                    {
+                        "name": "List",
+                        "value": "list"
+                    },
+                    {
+                        "name": "Inline Player",
+                        "value": "inline"
+                    }
+                ]
+            }
+        }
+    ],
+    "showOn": {
+        "menu": true,
+        "market": true,
+        "dragDrop": true
+    },
+    "images": {
+        "list": "modules/youtubegallery/images/youtube-video_list.png",
+        "screenshots": [
+            "modules/youtubegallery/images/youtuve-video_screenshots.png"
+        ],
+        "popover": "modules/youtubegallery/images/youtube-video_popover.png",
+        "banner": "modules/youtubegallery/images/youtube-video_popover.png",
+        "logo": "modules/youtubegallery/images/youtube-video_icons.png"
+    }
 }
