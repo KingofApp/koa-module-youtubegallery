@@ -29,5 +29,5 @@ Dos módulos, diferentes pero complementarios que van a dotar tu App de un **con
 ### Details:
 
 - Author: King of app
-- Version: 1.0.10
+- Version: 1.0.13
 - Homepage:
