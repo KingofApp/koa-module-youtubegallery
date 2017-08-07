@@ -8,7 +8,7 @@ www.youtube.com/watch?v=**7P2oPc9lck4**
 
 Todas siguen un mismo patrón, así que basta con fijarse en la zona destacada para localizar el ID a introducir en la configuración del módulo.
 
-![Página principal - Ki_ - https___console.developers.google.com_home_dashboard](http://kingofapp.es/wp-content/uploads/2015/12/Página-principal-Ki_-https___console.developers.google.com_home_dashboard-30ŗ.png)
+![Página principal - Ki_ - https___console.developers.google.com_home_dashboard](http://kingofapp.es/wp-content/uploads/2015/12/Página-principal-Ki_-https___console.developers.google.com_home_dashboard.png)
 
 Si por el contrario lo que quieres es meter toda una galería de vídeos, el módulo "_Youtube Gallery_" es el más adecuado. Aquí el proceso de configuración ya es algo mayor; aunque no complejo, ni mucho menos.
 
@@ -18,10 +18,10 @@ https://www.youtube.com/channel/**UCeIt2DJO8UdtUTmJzTfSXiQ**
 
 Lo único que deberíamos entrar en el campo "_ChannelID_" es la parte destacada.
 
-![Biblioteca de APIs - Ki_ - https___console.developers.google.com_apis_library](http://kingofapp.es/wp-content/uploads/2015/12/Biblioteca-de-APIs-Ki_-https___console.developers.google.com_apis_library-30ŗ.png)
+![Biblioteca de APIs - Ki_ - https___console.developers.google.com_apis_library](http://kingofapp.es/wp-content/uploads/2015/12/Biblioteca-de-APIs-Ki_-https___console.developers.google.com_apis_library.png)
 
 Para conseguir el Access Token, deberemos ir a la [consola de desarrolladores de Google](https://console.developers.google.com/). En su página principal podremos ver la opción de "_Habilitar y administrar APIS_". Ahí es donde deberás ir. Una vez en la página correspondiente verás como a la derecha de la pantalla aparecen las opciones específicas para Youtube. Selecciona "_Youtube Data API_" y crea el "_Access Token_" en el apartado "credenciales" que aparece en el menú de la izquierda de la página.
 
-Unos sencillos pasos para **volcar en tu App todos los vídeos del canal de Youtube** que quieras. Recuerda que este módulo y su configuración sólo funciona para los canales y no para los usuarios. Distinguirás ![Credenciales---King_---https___console.developers.google.com_apis_credentials](http://kingofapp.es/wp-content/uploads/2015/12/Credenciales-King_-https___console.developers.google.com_apis_credentials-30ŗ.png)entre unos y otros en la url por el distintivo "_channel_" o "_user_".
+Unos sencillos pasos para **volcar en tu App todos los vídeos del canal de Youtube** que quieras. Recuerda que este módulo y su configuración sólo funciona para los canales y no para los usuarios. Distinguirás ![Credenciales---King_---https___console.developers.google.com_apis_credentials](http://kingofapp.es/wp-content/uploads/2015/12/Credenciales-King_-https___console.developers.google.com_apis_credentials.png)entre unos y otros en la url por el distintivo "_channel_" o "_user_".
 
 Dos módulos, diferentes pero complementarios que van a dotar tu App de un **contenido único y original** así que apresúrate a probar todo cuanto Youtube puede darte a tu aplicación.
